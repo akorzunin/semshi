@@ -63,7 +63,7 @@ class Plugin:
         self._options = None
 
         # Python version check
-        if (3, 7) <= sys.version_info <= (3, 12, 9999):
+        if (3, 7) <= sys.version_info <= (4,):
             self._disabled = False
         else:
             self._disabled = True
